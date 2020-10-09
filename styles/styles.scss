@@ -1,0 +1,34 @@
+$white: #ffffff;
+@font-face {
+  font-family: "Din Rounded";
+  font-style: normal;
+  font-weight: 600;
+  src: url(./assets/fonts/DINNextRoundedLTPro-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "Din Next";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/fonts/DINNextLTPro-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Din Next";
+  font-style: italic;
+  font-weight: 400;
+  src: url(./assets/fonts/DINNextLTPro-MediumItalic.woff) format("woff");
+}
+@font-face {
+  font-family: "Din Next";
+  font-style: normal;
+  font-weight: 600;
+  src: url(./assets/fonts/DINNextRoundedLTPro-Bold.woff) format("woff");
+}
+body,
+html {
+  box-sizing: border-box;
+  margin: 25px;
+  font-size: 16px;
+  font-family: "Din Next", sans-serif;
+}
+
+

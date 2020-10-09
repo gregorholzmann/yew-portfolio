@@ -1,0 +1,814 @@
+h1 {
+  font-size: 2.5em;
+  line-height: 1.25em;
+  font-weight: 400;
+  font-family: "Din Rounded", sans-serif;
+  color: #0f6;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin-bottom: 0.5em;
+  color: #0f6;
+  font-family: "Din Next", sans-serif;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  color: #5a5a5a;
+  font-family: "Din Rounded", sans-serif;
+}
+h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+  color: #0f6;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+blockquote {
+  max-width: 90%;
+  font-size: 2em;
+  color: #0f6;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 2em;
+}
+blockquote p {
+  color: #0f6;
+  margin-bottom: 2em !important;
+}
+hr {
+  background: #0f6;
+}
+p {
+  font-size: 1em;
+  line-height: 1.3;
+  color: #5a5a5a;
+}
+@media only screen and (min-width: 500px) {
+  p {
+    font-size: 1.125em;
+  }
+}
+@media (min-width: tablet) {
+  p {
+    font-size: 1.125em;
+  }
+}
+.inner-container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 950px) {
+  .inner-container {
+    max-width: 65%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .inner-container {
+    max-width: 45em;
+  }
+}
+.two-columns p:first-child {
+  float: left;
+  width: 47%;
+}
+.two-columns p:nth-child(2) {
+  float: right;
+  width: 47%;
+  clear: right;
+}
+body.default main img {
+  width: 100%;
+}
+#hero_image img {
+  width: 100%;
+}
+.meta {
+  margin-bottom: 1.5em;
+}
+.meta li {
+  float: left;
+  list-style: none;
+  margin-right: 2em;
+  color: #0f6;
+}
+.meta li b {
+  font-weight: 400;
+  color: #000;
+  padding-right: 0.25em;
+}
+.teaser {
+  list-style: none;
+}
+.teaser .work_image {
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  transition: opacity 0.5s ease;
+}
+@media only screen and (min-width: 950px) {
+  .teaser .work_image {
+    height: 400px;
+  }
+  .teaser .work_image:hover {
+    opacity: 0.5;
+  }
+}
+.teaser .project_block {
+  margin-bottom: 1.5em;
+  list-style: none;
+  overflow: hidden;
+  padding-bottom: 2em;
+  border-bottom: 2px solid #0f6;
+}
+@media only screen and (min-width: 500px) {
+  .teaser .project_block {
+    margin-bottom: 2em;
+  }
+  .project_block li:first-child {
+    margin-bottom: 2em;
+  }
+}
+@media (min-width: tablet) {
+  .teaser .project_block {
+    margin-bottom: 2em;
+  }
+  .project_block li:first-child {
+    margin-bottom: 2em;
+  }
+}
+.nextprev {
+  padding: 1em 0;
+}
+.nextprev a {
+  border: 0;
+}
+.nextprev .prev {
+  float: left;
+}
+.nextprev .next {
+  float: right;
+}
+body.project main .text,
+body.project main img {
+  margin: 2em 0;
+}
+body.project main figure {
+  background-image: url(../images/pattern.jpg);
+  background-size: cover;
+}
+body.project main img {
+  width: 100%;
+  transition: opacity 0.5s ease;
+}
+body.project main a {
+  border-bottom: 2px solid #5a5a5a;
+}
+body.project main a:hover {
+  border-bottom: 2px solid #0f6;
+}
+body.project main h5 {
+  margin-bottom: 2em;
+  display: inline-block;
+}
+body.home main {
+  color: #fff;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+body.home main .text {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 3em 1em;
+  color: #5a5a5a;
+}
+@media only screen and (min-width: 950px) {
+  body.home main .text {
+    max-width: 65%;
+    padding: 6em 0em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.home main .text {
+    max-width: 45em;
+  }
+}
+body.home main .text h1 {
+  font-size: 2em;
+  font-family: "Din Rounded", sans-serif;
+  color: #0f6;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 950px) {
+  body.home main .text h1 {
+    font-size: 4em;
+  }
+}
+body.home main .text h2 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 950px) {
+  body.home main .text h2 {
+    font-size: 2em;
+  }
+}
+body.home main .text blockquote p {
+  margin-top: 0;
+}
+body.home main .text a {
+  text-decoration: underline;
+}
+body.home main .text a:hover {
+  color: #5a5a5a;
+}
+body.home main .text p:last-child {
+  margin-bottom: 0;
+}
+body.home main .text.bottom {
+  padding: 2em 1em;
+}
+@media only screen and (min-width: 950px) {
+  body.home main .text.bottom {
+    padding: 2em 0;
+  }
+}
+body.home main .text.bottom h2 {
+  margin-bottom: 0;
+}
+body.home main .text#splash {
+  padding-top: 15em;
+}
+body.home main .interested {
+  border: 2px solid #0f6;
+  width: 230px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  padding: 0.5em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15%;
+  border-radius: 2px;
+}
+body.home main .interested:hover {
+  background-color: #0f6;
+  transition: background-color 0.5s ease-in-out;
+}
+body.home main .interested:hover h2 {
+  color: #fff;
+  text-shadow: none;
+}
+body.home main .interested h2 {
+  text-transform: uppercase;
+  display: inline;
+  font-weight: 600;
+  text-shadow: 1px 1px #fff;
+}
+body.home main h2.featured {
+  width: 95%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 950px) {
+  body.home main h2.featured {
+    max-width: 65%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.home main h2.featured {
+    max-width: 45em;
+  }
+}
+body.home #video_block {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body.home #video_block video#bgvid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+body.home #video_block h2 {
+  text-shadow: 2px 2px #5a5a5a;
+  color: #fff;
+}
+@media only screen and (min-width: 500px) {
+  body.home #video_block {
+    height: 100vh;
+  }
+}
+@media (min-width: tablet) {
+  body.home #video_block {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  body.home #video_block {
+    background-image: url(../images/mobile_placeholder.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body.home #video_block #bgvid {
+    display: none;
+  }
+}
+body.home .green_block {
+  background-color: #0f6;
+  color: #5a5a5a;
+  transition: all 0.5s ease;
+  position: relative;
+}
+body.home .green_block h2 {
+  color: #5a5a5a;
+}
+body.home .green_block.featured .text {
+  padding: 2em 1em;
+}
+@media only screen and (min-width: 950px) {
+  body.home .green_block.featured .text {
+    padding: 2em 0;
+  }
+}
+body.home .green_block.featured .text h2 {
+  margin-bottom: 0;
+}
+body.home .picture_block {
+  background-image: url("../images/pattern.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+body.home .picture_block h2 {
+  color: #fff;
+  text-shadow: 2px 2px #5a5a5a;
+}
+body.home #intro_paragraph {
+  background-color: #fff;
+}
+body.home #intro_paragraph h2 {
+  margin-bottom: 0.5em;
+}
+body.home #project_blocks {
+  overflow: auto;
+  background-color: #fff;
+}
+body.home #project_blocks .project {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  transition: all 0.5s ease;
+}
+body.home #project_blocks .project .caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(35, 31, 32, 0.7);
+  transition: opacity 0.5s ease;
+}
+body.home #project_blocks .project .caption h4 {
+  margin-bottom: 0;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 1em;
+}
+@media only screen and (min-width: 950px) {
+  body.home #project_blocks .project {
+    width: 50%;
+    height: 400px;
+    float: left;
+    opacity: 0.5;
+  }
+  body.home #project_blocks .project:hover {
+    opacity: 1;
+    background-position: left top;
+  }
+  body.home #project_blocks .project .caption {
+    opacity: 0;
+  }
+  body.home #project_blocks .project:hover .caption {
+    opacity: 1;
+  }
+}
+body.home #concept_block {
+  background-color: #fff;
+}
+body.home #concept_block span {
+  font-style: italic;
+  color: #0f6;
+}
+body.home #concept_block img {
+  width: 75%;
+  margin: 3em auto 0 auto;
+}
+body.home #concept_block h2 {
+  margin-bottom: 0.5em;
+}
+body.home .inner-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 950px) {
+  body.home .inner-container {
+    max-width: 100%;
+  }
+}
+body.home .white {
+  color: #fff;
+}
+#popup-menu {
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 5000;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+#popup-menu nav {
+  width: 50%;
+}
+@media only screen and (min-width: 500px) {
+  #popup-menu nav {
+    width: auto;
+    float: right;
+  }
+  #popup-menu .toggle {
+    float: right;
+  }
+}
+@media (min-width: tablet) {
+  #popup-menu nav {
+    width: auto;
+    float: right;
+  }
+  #popup-menu .toggle {
+    float: right;
+  }
+}
+.toggle {
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  float: right;
+  line-height: 1;
+  transition: color 0.5s ease;
+}
+@media only screen and (min-width: 500px) {
+  .toggle {
+    font-size: 54px;
+    line-height: 1.5;
+  }
+}
+@media (min-width: tablet) {
+  .toggle {
+    font-size: 54px;
+    line-height: 1.5;
+  }
+}
+.toggle:hover {
+  color: #0f6;
+}
+#popup-menu.open {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+header {
+  position: absolute;
+  width: 100%;
+  padding: 1em;
+  z-index: 10;
+  opacity: 0.9;
+}
+@media only screen and (min-width: 500px) {
+  header {
+    position: absolute;
+    padding: 2em;
+    background-color: transparent;
+    opacity: 1;
+  }
+}
+@media (min-width: tablet) {
+  header {
+    position: absolute;
+    padding: 2em;
+    background-color: transparent;
+    opacity: 1;
+  }
+}
+header .toggle {
+  transition: color 0.5s ease;
+  color: #0f6;
+}
+header .toggle:hover {
+  color: #5a5a5a;
+}
+header .logo {
+  display: block;
+  float: left;
+}
+header .logo svg {
+  width: 45px;
+  height: 100%;
+  vertical-align: bottom;
+}
+@media only screen and (min-width: 500px) {
+  header .logo svg {
+    width: 100px;
+  }
+}
+@media (min-width: tablet) {
+  header .logo svg {
+    width: 100px;
+  }
+}
+.footer {
+  font-size: 0.8em;
+  background-color: #0f6;
+}
+.footer .footer-container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2em 1em;
+  overflow: auto;
+}
+@media only screen and (min-width: 950px) {
+  .footer .footer-container {
+    max-width: 65%;
+    padding: 2em 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footer .footer-container {
+    max-width: 45rem;
+  }
+}
+.footer .footer-container svg {
+  width: 75px;
+  height: 100%;
+  float: left;
+}
+.footer .footer-container .footer-text {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 4%;
+  float: left;
+}
+@media only screen and (min-width: 950px) {
+  .footer .footer-container .footer-text {
+    margin-left: 3%;
+    margin-top: 1em;
+  }
+}
+.footer .footer-container .footer-text a {
+  text-decoration: underline;
+}
+.footer .footer-container .footer-text a:hover {
+  color: #fff;
+}
+.copyright {
+  float: left;
+}
+.colophon {
+  float: right;
+}
+.colophon a b {
+  color: #0f6;
+  padding-left: 0.25em;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/sourcesanspro-300.woff) format("woff");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/sourcesanspro-400.woff) format("woff");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/sourcesanspro-600.woff) format("woff");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/sourcesanspro-400-italic.woff) format("woff");
+}
+@font-face {
+  font-family: "Din Rounded";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/DINNextRoundedLTPro-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "Din Next";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DINNextLTPro-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Din Next";
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/DINNextLTPro-MediumItalic.woff) format("woff");
+}
+@font-face {
+  font-family: "Din Next";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/DINNextRoundedLTPro-Bold.woff) format("woff");
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: #5a5a5a;
+  text-decoration: none;
+  transition: color 0.3s, background 0.3s, border 0.3s;
+}
+a:hover {
+  color: #0f6;
+}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+html {
+  height: 101%;
+  font-family: "Din Next", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.outer-container {
+  padding: 1em;
+}
+@media only screen and (min-width: 950px) {
+  .outer-container {
+    padding: 2em;
+  }
+}
+.menu a {
+  display: block;
+  color: #0f6;
+  text-shadow: 1px 1px #5a5a5a;
+}
+.menu a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.menu .active {
+  color: #fff;
+}
+.menu li {
+  list-style: none;
+  font-size: 25px;
+}
+.menu > li {
+  position: relative;
+}
+.menu > li > a {
+  padding: 0.35em 0;
+  font-weight: 600;
+}
+.submenu {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  left: 1em;
+}
+.submenu:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: -0.5em;
+  left: 0;
+  border-top: 0.5em solid transparent;
+  border-bottom: 0.5em solid transparent;
+  border-left: 0.5em solid #222;
+}
+.submenu li {
+  border-bottom: 1px solid #444;
+}
+.submenu a {
+  padding: 0.5em 1.5em;
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #fff;
+  background: #222;
+  white-space: nowrap;
+}
+.submenu a:hover {
+  background: #333;
+  color: #fff;
+}
+@media only screen and (min-width: 500px) {
+  .logo {
+    float: left;
+  }
+  .menu > li {
+    font-size: 45px;
+  }
+  .menu > li > a {
+    padding: 0.35em 1em;
+    border: 0;
+  }
+}
+@media (min-width: tablet) {
+  .logo {
+    float: left;
+  }
+  .menu > li {
+    font-size: 45px;
+  }
+  .menu > li > a {
+    padding: 0.35em 1em;
+    border: 0;
+  }
+}
+.main {
+  padding: 2em 0 5em 0;
+  margin: 0 auto;
+}
+.main hr {
+  margin: 3em 0;
+  height: 2px;
+}
+.main figure,
+.main ul,
+.main ol {
+  margin-bottom: 2em;
+}
+.main p {
+  margin-bottom: 1em;
+}
+.main a {
+  border-bottom: 2px solid #5a5a5a;
+}
+.main a:hover {
+  border-color: #0f6;
+}
+.text ul,
+.text ol {
+  list-style: none;
+  color: #5a5a5a;
+}
+.text ul li,
+.text ol li {
+  margin-bottom: 0.5em;
+}
+/*# sourceMappingURL=main.css.map */
